@@ -19,4 +19,6 @@ Links to Vancouver Open Data Portal:
 ## Repository Structure
 See folder descriptions in `/src`, `/data`, and `/notebooks`.
 
-
+## Requirements
+- pandas
+- requests
