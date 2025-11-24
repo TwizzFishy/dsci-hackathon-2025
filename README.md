@@ -2,7 +2,7 @@
 
 ## Team Members
 - Fisher
-- Teammate 1
+- Neerja
 - Teammate 2
 
 ## Project Goal
