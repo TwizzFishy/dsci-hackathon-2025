@@ -53,3 +53,4 @@ print(f"\n\nSample of records from 2020+:")
 if 'year' in df.columns:
     recent = df[df['year'] >= 2020].head(10)
     print(recent[['year'] + [col for col in date_cols if col in df.columns]])
+
