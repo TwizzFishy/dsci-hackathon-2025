@@ -184,3 +184,42 @@ print("  - data/cleaned/business_type_by_year.csv")
 print("\nDate range:", df_with_dates['issued_date'].min(), "to", df_with_dates['issued_date'].max())
 print(f"\nCrisis period breakdown:")
 print(df_with_dates['crisis_period'].value_counts())
+
+
+######linear model to predict the forcasted no of business licenses in the top sector in
+# the next 3-5 years based on how they survived previous crises
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+forecast_list = []
+
+all_types = df_with_dates['businesstype'].unique()
+
+for btype in all_types:
+    subset = df_with_dates[df_with_dates['businesstype'] == btype]
+    
+    yearly = subset.groupby('year').size().reset_index(name='count')
+
+    if len(yearly) < 5:   # too little data, skip
+        continue
+
+    X = yearly['year'].values.reshape(-1, 1)
+    y = yearly['count'].values
+
+    model = LinearRegression()
+    model.fit(X, y)
+
+    future_years = np.arange(2025, 2030)
+    predicted_counts = model.predict(future_years.reshape(-1, 1))
+
+    for year, pred in zip(future_years, predicted_counts):
+        forecast_list.append({
+            'businesstype': btype,
+            'year': year,
+            'predicted_count': max(0, pred)   # no negatives
+        })
+
+forecast_df = pd.DataFrame(forecast_list)
+print("\nGenerated forecast table:")
+print(forecast_df.head(20))
+print("\nTotal predictions:", len(forecast_df))
