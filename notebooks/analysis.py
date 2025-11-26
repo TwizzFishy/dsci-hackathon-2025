@@ -186,7 +186,8 @@ print(f"\nCrisis period breakdown:")
 print(df_with_dates['crisis_period'].value_counts())
 
 
-######linear model to predict the forcasted no of business licenses in the top sector in
+#########################################
+# linear model to predict the forcasted no of business licenses in the top sector in
 # the next 3-5 years based on how they survived previous crises
 from sklearn.linear_model import LinearRegression
 import numpy as np
@@ -223,3 +224,34 @@ forecast_df = pd.DataFrame(forecast_list)
 print("\nGenerated forecast table:")
 print(forecast_df.head(20))
 print("\nTotal predictions:", len(forecast_df))
+
+
+
+####################################################
+# linear model that models monthly count of businesses as a function of whether a crisis is happening.
+import statsmodels.api as sm
+import pandas as pd
+
+# Prepare monthly data
+def is_crisis(date):
+    for start_str, end_str in CRISES.values():
+        start = pd.to_datetime(start_str + "-01")  # add day to make full date
+        end = pd.to_datetime(end_str + "-01") + pd.offsets.MonthEnd(0)  # end of month
+        if start <= date <= end:
+            return 1
+    return 0
+
+monthly_counts['is_crisis'] = monthly_counts['date'].apply(is_crisis)
+
+X = sm.add_constant(monthly_counts['is_crisis'])
+y = monthly_counts['count']
+
+model = sm.OLS(y, X).fit()
+print(model.summary())
+
+#question - Do crisis months have a statistically significant difference in the number 
+#of business licences issued compared to non-crisis months?
+#result - Average count of licences in non-crisis months is about 73.87. and in crisis months - 14.26
+# F-statistic p- value is 0.814 so this model is overall not significant. 
+# The model is very simple, only including crisis vs non-crisis and it doesn’t account for trends,
+#  seasonality, or other factors.
