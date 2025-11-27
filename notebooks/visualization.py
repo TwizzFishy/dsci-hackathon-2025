@@ -40,9 +40,8 @@ CRISIS_COLORS = {
 
 fig, ax = plt.subplots(figsize=(18, 8))
 
-# Plot monthly data with markers for better visibility
 ax.plot(monthly['date'], monthly['count'], linewidth=1.5, color='navy', 
-        label='Monthly Business Licences', alpha=0.6, marker='o', markersize=2)
+        label='Monthly Business Licences', alpha=0.6)
 
 # Add 12-month rolling average - use min_periods to handle edges better
 monthly['rolling_avg'] = monthly['count'].rolling(window=12, center=True, min_periods=1).mean()
@@ -194,7 +193,7 @@ for idx, (crisis_name, (start, end)) in enumerate(CRISES.items()):
     # Only plot if we have substantial data (more than 5 points)
     if len(crisis_window[crisis_window['count'] > 0]) > 5:
         ax.plot(crisis_window['months_from_start'], crisis_window['count'], 
-                linewidth=2, color='navy', marker='o', markersize=3)
+                linewidth=2, color='navy')
     else:
         # For sparse data, use scatter plot
         ax.scatter(crisis_window['months_from_start'], crisis_window['count'], 
