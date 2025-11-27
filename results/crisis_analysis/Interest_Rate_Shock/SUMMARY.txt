@@ -1,0 +1,55 @@
+Interest Rate Shock (2022-2023)
+======================================================================
+
+CAUSE OF CRISIS:
+Bank of Canada rapidly hiked interest rates from 0.25% to 5% to combat inflation, triggering a housing affordability crisis and mortgage shock. Small business bankruptcies surged as borrowing costs soared and consumer spending declined.
+
+======================================================================
+KEY STATISTICS
+======================================================================
+
+Overall Change in Business Licences: +0.0%
+  Baseline: 0 licences/year
+  Crisis: 0 licences/year
+
+Sectors Growing: 0 (0.0%)
+Sectors Shrinking: 0 (0.0%)
+
+======================================================================
+TOP 3 WINNERS (Fastest Growing Sectors)
+======================================================================
+
+1. Apartment House *Historic*
+   Change: +0.0%
+   Baseline: 14/year -> Crisis: 154/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Duplex *Historic*
+   Change: +0.0%
+   Baseline: 9/year -> Crisis: 38/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Electrical Contractor *Historic*
+   Change: +0.0%
+   Baseline: 6/year -> Crisis: 96/year
+   Possible Reason: [Analysis needed based on sector]
+
+======================================================================
+TOP 3 LOSERS (Most Declining Sectors)
+======================================================================
+
+1. Health Services *Historic*
+   Change: +0.0%
+   Baseline: 10/year -> Crisis: 60/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Office *Historic*
+   Change: +0.0%
+   Baseline: 205/year -> Crisis: 317/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Single Detached House *Historic*
+   Change: +0.0%
+   Baseline: 62/year -> Crisis: 131/year
+   Possible Reason: [Analysis needed based on sector]
+

@@ -1,0 +1,55 @@
+Great Recession (2008-2009)
+======================================================================
+
+CAUSE OF CRISIS:
+The U.S. subprime mortgage crisis triggered a global financial meltdown, causing Canada's GDP to fall 4% and unemployment to spike to 9%. Credit froze, exports collapsed, and retail, restaurants, and manufacturing were devastated.
+
+======================================================================
+KEY STATISTICS
+======================================================================
+
+Overall Change in Business Licences: -43.3%
+  Baseline: 804 licences/year
+  Crisis: 456 licences/year
+
+Sectors Growing: 14 (34.1%)
+Sectors Shrinking: 27 (65.9%)
+
+======================================================================
+TOP 3 WINNERS (Fastest Growing Sectors)
+======================================================================
+
+1. Plumber & Gas Contractor *Historic*
+   Change: +380.4%
+   Baseline: 5/year -> Crisis: 22/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Landscape Gardener *Historic*
+   Change: +335.7%
+   Baseline: 3/year -> Crisis: 13/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Plumber *Historic*
+   Change: +201.7%
+   Baseline: 6/year -> Crisis: 17/year
+   Possible Reason: [Analysis needed based on sector]
+
+======================================================================
+TOP 3 LOSERS (Most Declining Sectors)
+======================================================================
+
+1. Liquor Establishment Standard *Historic*
+   Change: -100.0%
+   Baseline: 4/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Dining Lounge *Historic*
+   Change: -100.0%
+   Baseline: 25/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Photographer *Historic*
+   Change: -100.0%
+   Baseline: 3/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+

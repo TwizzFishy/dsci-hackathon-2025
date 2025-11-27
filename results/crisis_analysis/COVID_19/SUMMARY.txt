@@ -1,0 +1,55 @@
+COVID-19 (2020-2021)
+======================================================================
+
+CAUSE OF CRISIS:
+The COVID-19 pandemic caused mandatory shutdowns of non-essential businesses, devastating hospitality, tourism, and retail. Government relief (CERB, CEWS) kept some businesses afloat while accelerating the shift to online and delivery models.
+
+======================================================================
+KEY STATISTICS
+======================================================================
+
+Overall Change in Business Licences: +0.0%
+  Baseline: 0 licences/year
+  Crisis: 0 licences/year
+
+Sectors Growing: 0 (0.0%)
+Sectors Shrinking: 0 (0.0%)
+
+======================================================================
+TOP 3 WINNERS (Fastest Growing Sectors)
+======================================================================
+
+1. Apartment House *Historic*
+   Change: +0.0%
+   Baseline: 87/year -> Crisis: 14/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Production Company *Historic*
+   Change: +0.0%
+   Baseline: 22/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Live-Aboards *Historic*
+   Change: +0.0%
+   Baseline: 11/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+======================================================================
+TOP 3 LOSERS (Most Declining Sectors)
+======================================================================
+
+1. Hotel Or Motel
+   Change: +0.0%
+   Baseline: 18/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Instruction *Historic*
+   Change: +0.0%
+   Baseline: 28/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Wholesale Dealer - Food *Historic*
+   Change: +0.0%
+   Baseline: 7/year -> Crisis: 0/year
+   Possible Reason: [Analysis needed based on sector]
+

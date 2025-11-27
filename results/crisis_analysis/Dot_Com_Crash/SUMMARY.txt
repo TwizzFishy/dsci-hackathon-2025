@@ -1,0 +1,55 @@
+Dot-Com Crash (2000-2002)
+======================================================================
+
+CAUSE OF CRISIS:
+The dot-com bubble burst as overvalued internet companies collapsed, triggering a tech sector crash. Nortel's collapse alone wiped out a third of the TSX, devastating Canada's telecom and tech industries.
+
+======================================================================
+KEY STATISTICS
+======================================================================
+
+Overall Change in Business Licences: -28.1%
+  Baseline: 155 licences/year
+  Crisis: 111 licences/year
+
+Sectors Growing: 2 (16.7%)
+Sectors Shrinking: 10 (83.3%)
+
+======================================================================
+TOP 3 WINNERS (Fastest Growing Sectors)
+======================================================================
+
+1. Office *Historic*
+   Change: +108.6%
+   Baseline: 5/year -> Crisis: 10/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Contractor *Historic*
+   Change: +9.9%
+   Baseline: 15/year -> Crisis: 17/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Janitorial Services *Historic*
+   Change: -32.7%
+   Baseline: 5/year -> Crisis: 3/year
+   Possible Reason: [Analysis needed based on sector]
+
+======================================================================
+TOP 3 LOSERS (Most Declining Sectors)
+======================================================================
+
+1. Contractor - Special Trades *Historic*
+   Change: -87.0%
+   Baseline: 16/year -> Crisis: 2/year
+   Possible Reason: [Analysis needed based on sector]
+
+2. Financial Services *Historic*
+   Change: -93.3%
+   Baseline: 10/year -> Crisis: 1/year
+   Possible Reason: [Analysis needed based on sector]
+
+3. Single Detached House *Historic*
+   Change: -97.5%
+   Baseline: 27/year -> Crisis: 1/year
+   Possible Reason: [Analysis needed based on sector]
+
